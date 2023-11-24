@@ -3,7 +3,7 @@
     <v-layout>
       <AppAavBar />
       <AppDrawer />
-      <v-main>
+      <v-main style="margin-top: 138px">
         <slot></slot>
       </v-main>
       <AppFooter />
