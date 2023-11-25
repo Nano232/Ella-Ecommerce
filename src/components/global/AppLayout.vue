@@ -1,6 +1,6 @@
 <template>
-  <div class="lay-out">
-    <v-layout>
+  <div class="layout">
+    <v-layout class="position-relative">
       <AppAavBar />
       <AppDrawer />
       <v-main style="margin-top: 138px">

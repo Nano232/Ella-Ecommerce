@@ -1,5 +1,5 @@
 <template>
-  <div class="app-nav" style="z-index: 0">
+  <div class="app-nav" style="">
     <v-app-bar color="#02218f" height="fit-content">
       <v-container fluid>
         <v-row>
