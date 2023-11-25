@@ -3,24 +3,50 @@
     <v-container fluid>
       <v-row>
         <v-col cols="4">
-          <img src="../../assets/images/playstations.webp" alt="image" />
+          <div class="parent">
+            <img
+              src="../../assets/images/playstations.webp"
+              alt="image"
+              style="width: 100%"
+            />
+          </div>
         </v-col>
 
         <v-col cols="4">
-          <img src="../../assets/images/headset.webp" alt="image" />
+          <div class="parent">
+            <img
+              src="../../assets/images/headset.webp"
+              alt="image"
+              style="width: 100%"
+            />
+          </div>
         </v-col>
 
         <v-col cols="4">
-          <img src="../../assets/images/chairs.webp" alt="image" />
+          <div class="parent">
+            <img
+              src="../../assets/images/chairs.webp"
+              alt="image"
+              style="width: 100%"
+            />
+          </div>
         </v-col>
       </v-row>
 
       <v-row>
         <v-col cols="6">
-          <img src="../../assets/images/iphones.webp" alt="image" />
+          <img
+            src="../../assets/images/iphones.webp"
+            alt="image"
+            style="width: 100%"
+          />
         </v-col>
         <v-col cols="6">
-          <img src="../../assets/images/laptops.webp" alt="image" />
+          <img
+            src="../../assets/images/laptops.webp"
+            alt="image"
+            style="width: 100%"
+          />
         </v-col>
       </v-row>
     </v-container>
@@ -30,10 +56,7 @@
 <script></script>
 
 <style lang="scss" scoped>
-.top-offers {
-  img {
-    width: 100%;
-    height: 100%;
-  }
+img {
+  cursor: pointer;
 }
 </style>
