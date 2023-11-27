@@ -3,6 +3,7 @@
     <v-layout class="position-relative">
       <AppAavBar />
       <AppDrawer />
+      <FixedNav />
       <v-main style="margin-top: 138px">
         <slot></slot>
       </v-main>
@@ -15,6 +16,7 @@
 import AppAavBar from "./AppAavBar.vue";
 import AppDrawer from "./AppDrawer.vue";
 import AppFooter from "./AppFooter.vue";
+import FixedNav from "./FixedNav.vue";
 export default {
   data() {
     return {
@@ -25,6 +27,7 @@ export default {
     AppAavBar,
     AppDrawer,
     AppFooter,
+    FixedNav,
   },
 };
 </script>
